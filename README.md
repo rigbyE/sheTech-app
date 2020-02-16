@@ -1,8 +1,3 @@
-# node-js-getting-started
-
-A barebones Node.js app using [Express 4](http://expressjs.com/).
-
-This application supports the [Getting Started with Node on Heroku](https://devcenter.heroku.com/articles/getting-started-with-nodejs) article - check it out.
 
 ## Running Locally
 
@@ -21,12 +16,19 @@ Your app should now be running on [localhost:5000](http://localhost:5000/).
 
 ```
 $ heroku create
-$ git push heroku master
+$ git push shetech-server
 $ heroku open
 ```
 or
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
+
+## Deploying to GitHub
+$ git add .
+$ git commit -m""
+$ git push origin
+
 
 ## Documentation
 
