@@ -1,0 +1,11 @@
+body {
+  font: 14px 'Century Gothic', Futura, sans-serif;
+  margin: 20px;
+}
+
+.carousel-image {
+  width: 600px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
