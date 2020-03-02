@@ -1,0 +1,24 @@
+.page {
+  background-color: #222222;
+  padding: 40px;
+  display: flex;
+}
+
+.page-img {
+  width: 40%;
+  vertical-align: middle;
+}
+
+.content-wrapper {
+  padding-left: 30px;
+  color: yellow;
+}
+
+.content-title {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.content {
+  font-size: 25px;
+}

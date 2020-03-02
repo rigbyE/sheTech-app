@@ -1,11 +1,16 @@
-body {
-  font: 14px 'Century Gothic', Futura, sans-serif;
-  margin: 20px;
+@font-face {
+  font-family: "StarJedi";
+  src: local("StarJedi"),
+    url(./fonts/star-wars-font/STARWARS.woff) format("woff2");
 }
 
-.carousel-image {
-  width: 600px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #181818;
+}
+
+.main-image {
+  width: 100%;
 }
